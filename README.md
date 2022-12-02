@@ -1,6 +1,6 @@
-## Advent of Code 2021
+## Advent of Code
 
-My attempt at 2021s edition of Advent of Code.
+My attempt at solving Advent of Code.
 These are not refined solutions, just as long
 as they work, I'm happy.
 
