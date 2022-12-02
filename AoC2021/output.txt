@@ -1,0 +1,6 @@
+nvram unset 
+nvram unset diag_cloud_path
+nvram unset 
+nvram unset wl1_sched_v2
+nvram unset diag_db_path
+nvram unset 
