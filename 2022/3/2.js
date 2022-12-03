@@ -13,7 +13,6 @@ function* chunks(arr, n) {
 const triplets = [...chunks(input, 3)];
 
 const output = triplets.map(e => e.map(c => c.split(''))).map(e => {
-    // console.log(e[0]);
     return e[0].filter(c => {
         if (e[1].includes(c) && e[2].includes(c)) {
             return c;
