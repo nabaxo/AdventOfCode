@@ -23,7 +23,6 @@ const numberMap = {
 
 const result = input.reduce((acc, cur) => {
   if (cur !== undefined) {
-    // let n = cur.match(pattern);
     const n = matchOverlap(cur, pattern);
     let a, b;
     if (!isNaN(parseInt(n.at(0)))) {
@@ -45,9 +44,9 @@ const result = input.reduce((acc, cur) => {
 
 console.log({ result });
 
-// Thanks StackOverflow!
+// * Thanks StackOverflow!
 function matchOverlap(input, re) {
-  var r = [], m;
+  let r = [], m;
   // Prevent infinite loops
   if (!re.global) re = new RegExp(
     re.source, (re + '').split('/').pop() + 'g'
